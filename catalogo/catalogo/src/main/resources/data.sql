@@ -1,0 +1,22 @@
+-- productos iniciales de Ginga PC
+INSERT INTO productos (nombre, descripcion, categoria, marca, precio, stock, activo) VALUES
+('NVIDIA GeForce RTX 4060 Ti', 'Tarjeta grafica 8GB GDDR6, ideal para 1080p en Ultra', 'GPU', 'NVIDIA', 450000.00, 8, true),
+('NVIDIA GeForce RTX 4070', 'Tarjeta grafica 12GB GDDR6X con DLSS 3', 'GPU', 'NVIDIA', 680000.00, 5, true),
+('AMD Radeon RX 7600', 'Tarjeta grafica 8GB GDDR6, buena relacion precio-calidad', 'GPU', 'AMD', 320000.00, 12, true),
+('AMD Ryzen 5 7600X', 'Procesador 6 nucleos 12 hilos, arquitectura Zen 4', 'CPU', 'AMD', 220000.00, 20, true),
+('AMD Ryzen 7 7800X3D', 'El mejor procesador gaming actual, 8 nucleos con 3D V-Cache', 'CPU', 'AMD', 410000.00, 6, true),
+('Intel Core i5-13400F', 'Procesador 10 nucleos, sin graficos integrados', 'CPU', 'Intel', 205000.00, 18, true),
+('Memoria RAM 16GB DDR5', 'Kit 2x8GB a 5200MHz con disipador negro', 'RAM', 'Corsair', 75000.00, 25, true),
+('Memoria RAM 32GB DDR5', 'Kit 2x16GB a 6000MHz para multitarea y gaming pesado', 'RAM', 'G.Skill', 135000.00, 14, true),
+('SSD NVMe M.2 1TB', 'PCIe 4.0, lectura hasta 7000 MB/s', 'SSD', 'Samsung', 89990.00, 30, true),
+('SSD NVMe M.2 2TB', 'PCIe 4.0, maximo almacenamiento para juegos', 'SSD', 'WD Black', 155000.00, 12, true),
+('Fuente de Poder 650W', 'Certificacion 80+ Bronze, cables mallados', 'PSU', 'Corsair', 65000.00, 15, true),
+('Fuente de Poder 850W', 'Certificacion 80+ Gold, completamente modular', 'PSU', 'EVGA', 115000.00, 8, true),
+('Gabinete ATX All-Black', 'Torre cristal templado, diseno minimalista, 4 ventiladores', 'Case', 'NZXT', 79990.00, 10, true),
+('Refrigeracion Liquida 240mm', 'Cooler AIO con bomba silenciosa y tubos reforzados', 'Cooler', 'Corsair', 95000.00, 7, true),
+('Disipador Torre Dual Fan', 'Doble ventilador, heatpipes de cobre, acabado mate', 'Cooler', 'Noctua', 45000.00, 22, true),
+('Monitor Gaming 180Hz 24 pulgadas', 'Panel IPS 1ms, resolucion 1080p, FreeSync Premium', 'Monitor', 'LG', 189990.00, 15, true),
+('Monitor Gaming 144Hz 27 pulgadas', 'Panel IPS 2K, resolucion 1440p, compatible G-Sync', 'Monitor', 'Samsung', 249990.00, 10, true),
+('Teclado Mecanico TKL', 'Switches Cherry MX Red, formato compacto, chasis aluminio', 'Periferico', 'Keychron', 55000.00, 16, true),
+('Mouse Gaming Inalambrico', 'Sensor 25K DPI, peso 60g, bateria 70 horas', 'Periferico', 'Logitech', 65000.00, 20, true),
+('Audifonos Gaming 7.1', 'Sonido envolvente, microfono desmontable, almohadillas memory foam', 'Periferico', 'HyperX', 70000.00, 0, true);
