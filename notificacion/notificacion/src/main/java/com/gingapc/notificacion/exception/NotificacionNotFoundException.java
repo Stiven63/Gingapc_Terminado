@@ -1,0 +1,8 @@
+package com.gingapc.notificacion.exception;
+
+public class NotificacionNotFoundException extends RuntimeException {
+
+    public NotificacionNotFoundException(String mensaje) {
+        super(mensaje);
+    }
+}
